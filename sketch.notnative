@@ -1,0 +1,4 @@
+#!/bin/bash
+# There is a bug when convolving FLOAT images under intel Macs native acceleration...
+# Use the Platform-Independent version of JAI 
+java -Dcom.sun.media.jai.disableMediaLib=true -jar dist/SketchRC.jar /Users/david/Desktop/testpix
